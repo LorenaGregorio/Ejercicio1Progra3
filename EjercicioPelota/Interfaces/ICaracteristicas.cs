@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioPelota.Interfaces
 {
-    public interface ICaracteristicas
+    public interface ICaracteristicas : IBuscar
     {
         void AgregarRamadelDeporte(Pelota pelotas);
         void AgregarTipodeBalon(int Serie);

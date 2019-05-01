@@ -48,12 +48,14 @@
   <ItemGroup>
     <Compile Include="Clase\Pelota.cs" />
     <Compile Include="Clase\Procesos.cs" />
+    <Compile Include="Clase\ProcesosMasIva.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IBuscar.cs" />
     <Compile Include="Interfaces\ICaracteristicas.cs" />
     <Compile Include="Interfaces\IOperaciones.cs" />
     <Compile Include="Program.cs" />

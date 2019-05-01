@@ -7,15 +7,8 @@ using System.Threading.Tasks;
 
 namespace EjercicioPelota.Clase
 {
-    public class Pelota : ICaracteristicas
+    public partial class Procesos : ICaracteristicas
     {
-        public int id { get; set; }
-        public int Serie { get; set; }
-        public string Modelo { get; set; }
-        public string Marca { get; set; }
-        public string Color { get; set; }
-        public string Tamaño { get; set; }
-
         public void AgregarRamadelDeporte(Pelota pelotas)
         {
             throw new NotImplementedException();
@@ -31,6 +24,11 @@ namespace EjercicioPelota.Clase
             throw new NotImplementedException();
         }
 
+        public void BuscarPelota(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void EliminarRamadelDeporte(Pelota pelotas)
         {
             throw new NotImplementedException();
@@ -42,6 +40,21 @@ namespace EjercicioPelota.Clase
         }
 
         public void EliminarTipodeBalon(int Serie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Pelota ObtenerDatosdePelota(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Pelota> ObtenerDatosPelota()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Pelota> ObtenerDatosPelota(string modelo)
         {
             throw new NotImplementedException();
         }

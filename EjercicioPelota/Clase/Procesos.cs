@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioPelota.Clase
 {
-    public class Procesos : IOperaciones
+    public partial class Procesos : IOperaciones
     {
         public List<Pelota> CargarDatos = new List<Pelota>();
         public void AgregarCaracteristicas(Pelota pelotas)
