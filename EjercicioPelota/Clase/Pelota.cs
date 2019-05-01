@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioPelota.Clase
 {
-    public class Pelota : ICaracteristicas
+    public class Pelota  
     {
         public int id { get; set; }
         public int Serie { get; set; }
